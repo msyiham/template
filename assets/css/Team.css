@@ -65,24 +65,6 @@
   background-position: bottom center;
   background-size: cover;
 }
-@media (max-width: 600px) {
-    .portada {
-      width: 100%;
-      height: auto;
-    }
-    .card .title {
-        font-size: 15px;
-      }
-    
-      .card .desc {
-        font-size: 15px;
-      }
-    
-      .card .actions {
-        grid-template-columns: 1fr;
-        justify-content: center;
-      }
-  }
 button {
   border: none;
   background: none;
@@ -100,4 +82,28 @@ button a{
     &:hover{
         color: #c18e6f  ;
       }
+}
+@media (max-width: 600px) {
+  .portada {
+    width: 100%;
+    height: auto;
+  }
+  .card .actions {
+    grid-template-columns: 1fr; /* Mengubah grid-template-columns menjadi 1 kolom pada mode responsif */
+    justify-items: center; /* Mengatur posisi item secara horizontal menjadi tengah */
+    padding: 0.5rem; /* Mengurangi padding pada mode responsif */
+  }
+  .card .title {
+      font-size: 15px;
+    }
+  
+    .card .desc {
+      font-size: 15px;
+    }
+  
+    .card .actions {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+
 }
