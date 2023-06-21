@@ -20,19 +20,20 @@
 .card h3 {
   margin: 0;
   padding: 0rem;
-  color: rgb(118, 66, 7);
+  color: #3C2A21;
+  
 }
 .card .title {
   padding: 1rem;
   text-align: right;
-  color: green;
+  color: #A4907C;
   font-weight: bold;
   font-size: 12px;
 }
 .card .desc {
   padding: 0.5rem 1rem;
   font-size: 12px;
-  color: rgb(0, 0, 0);
+  color: #A4907C;
 }
 .card .actions {
   display: grid;
@@ -69,18 +70,18 @@ button {
   border: none;
   background: none;
   font-size: 24px;
-  color: #ac4403;
+  color: #c18e6f;
   cursor: pointer;
   transition:.5s;
   &:hover{
-    color: #c18e6f  ;
+    color: #fff  ;
     transform: rotate(22deg)
   }
 }
 button a{
-    color: #ac4403;
+    color: #c18e6f;
     &:hover{
-        color: #c18e6f  ;
+        color: #fff;
       }
 }
 @media (max-width: 600px) {
