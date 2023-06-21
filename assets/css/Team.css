@@ -67,7 +67,13 @@
   background-position: bottom center;
   background-size: cover;
 }
-
+@media (max-width: 600px) {
+    .portada {
+      flex-direction: column;
+      width: 100px;
+      height: auto;
+    }
+  }
 button {
   border: none;
   background: none;
