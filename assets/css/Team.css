@@ -12,14 +12,14 @@
   @media (max-width: 600px) {
     .card {
       flex-direction: column;
-      max-width: 100%;
+      width: 100%;
       height: auto;
     }
   }
 
-.card h2 {
+.card h3 {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0rem;
   color: rgb(118, 66, 7);
 }
 .card .title {
@@ -59,8 +59,6 @@
 .portada {
   width: 100%;
   height: 100%;
-  min-height: 280px;
-  max-height: 280px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   background-image: url("../images/Profil.jpeg");
@@ -69,10 +67,21 @@
 }
 @media (max-width: 600px) {
     .portada {
-      flex-direction: column;
-      width: 100px;
+      width: 100%;
       height: auto;
     }
+    .card .title {
+        font-size: 15px;
+      }
+    
+      .card .desc {
+        font-size: 15px;
+      }
+    
+      .card .actions {
+        grid-template-columns: 1fr;
+        justify-content: center;
+      }
   }
 button {
   border: none;
