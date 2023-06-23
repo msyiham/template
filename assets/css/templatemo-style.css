@@ -335,10 +335,10 @@ html {
 }
 @media (max-width: 600px) {
     .section-heading .logo-pkm {
-        width: 60%;
+        width: 100%;
     }
     .section-heading .gambar-pimnas {
-        width: 60%;
+        width: 100%;
     }
 }
 
