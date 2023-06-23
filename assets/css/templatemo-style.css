@@ -527,8 +527,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #8D7B68;
-    border-bottom: 2px solid #8D7B68;
+    color: #FFC26F;
+    border-bottom: 2px solid #FFC26F;
 }
 
 .isotope-box {
