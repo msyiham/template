@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/BG.jpg) no-repeat center center fixed;
+    background: url(../images/BG-2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -318,6 +318,23 @@ html {
     color: #fff;
     letter-spacing: 0.5px;
 }
+.section-heading p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.section-heading .logo-pkm {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.section-heading .gambar-pimnas {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
 
 
 /* Buttons */
@@ -402,8 +419,14 @@ button:hover {
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    min-height: 620px;
+    max-height: max-content;
 }
-
+@media (max-width: 600px) {
+    .service-item {
+        max-height: max-content;
+    }
+}
 .service-item h4 {
     transition: all 0.5s;
 }
