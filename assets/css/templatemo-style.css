@@ -534,6 +534,7 @@ section.my-work .section-heading {
 .isotope-box {
     position: relative;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .isotope-toolbar {
