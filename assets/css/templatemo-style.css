@@ -296,7 +296,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 60px 25px;
 }
 
 .section-heading h2 {
@@ -316,15 +316,16 @@ html {
     margin-top: 5px;
     font-size: 16px;
     color: #fff;
+    text-align: left;
     letter-spacing: 0.5px;
 }
 .section-heading p {
-    margin-top: 5px;
     font-size: 16px;
     color: #fff;
     text-align: justify;
+    text-indent: 1em;
+    padding-left: 1em;
     letter-spacing: 0.5px;
-    left: 10px;
 }
 .section-heading .logo-pkm {
     width: 300px;
