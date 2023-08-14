@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+</head>
+<body>
+    <div id="botpress-webchat"></div>
+
+    <!-- Sisipkan tag <script> untuk menginisialisasi Botpress Web Chat -->
+    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with bot",
+          "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+          "botId": "d12f06b8-0f4b-4df2-ad9f-e4a515bcd309",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "d12f06b8-0f4b-4df2-ad9f-e4a515bcd309",
+          "stylesheet": "https://webchat-styler-css.botpress.app/prod/b4db6203-4e06-4844-a463-1bddac62eac1/v91642/style.css",
+          "showPoweredBy": true,
+          "target": "#botpress-webchat"
+      });
+    </script>
+</body>
+</html>
